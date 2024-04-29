@@ -228,3 +228,4 @@ if __name__ == "__main__":
         data_point_list = parse_coordinates_list(data_points_str)
         center_list = parse_coordinates_list(centers_str)
         print("%.3f" %get_squared_distortion(data_point_list, center_list))
+        print("changed on ubuntu")
